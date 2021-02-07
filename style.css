@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .meal-container {
+    margin-top: 4rem;
+  }
+
+  #meal-list {
+    margin: 2.4rem 0;
+  }
+
+  .individual-meal {
+    border-radius: 1rem;
+  
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+  }
+
+  .individual-meal-image {
+    width: 100%;
+    display: block;
+  }
+  .meal-name {
+    padding: 1.5rem 0.5rem;
+  }
+  .meal-name h3 {
+    font-size: 1.4rem;
+  }
+
+  .meal-area{
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    margin-right: 5px;
+  }
+  
