@@ -45,3 +45,26 @@
     margin-right: 5px;
   }
   
+  .ingredient-meal-image{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ingredient-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+        
+  }
+
+  .center {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .center li{
+      font-size: 17.5px;
+  }
