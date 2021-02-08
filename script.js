@@ -52,14 +52,14 @@ const getMealIngredients = mealId =>{
                 <div class="center">
                     <h1>${ data.meals[0].strMeal }</h1>
                     <h3>Ingredients:<h3>
-                    <ul >
-                        <li> ${ data.meals[0].strIngredient1 }</li>
-                        <li> ${ data.meals[0].strIngredient2 }</li>
-                        <li> ${ data.meals[0].strIngredient3 }</li>
-                        <li> ${ data.meals[0].strIngredient4 }</li>
-                        <li> ${ data.meals[0].strIngredient5 }</li>
-                        <li> ${ data.meals[0].strIngredient6 }</li>
-                    </ul>
+                    
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient1 }</h6>
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient2 }</h6>
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient3 }</h6>
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient4 }</h6>
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient5 }</h6>
+                        <h6> <i class="fas fa-check-square check-icon"></i>  ${ data.meals[0].strIngredient6 }</h6>
+                    
                 </div>
 
             </div>
